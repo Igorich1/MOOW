@@ -1,0 +1,52 @@
+.wrapper-popap__registration {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 50px;
+    width: 540px;
+    height: 294px;
+    background: #FEFEFE;
+    box-shadow: 0px 1.33333px 11.3333px rgba(0, 0, 0, 0.09);
+    border-radius: 15px;
+    transition: transform 10.25s;
+
+}
+
+.wrapper-popap__registration:hover {
+    position: relative;
+    opacity: 1;
+    transition:  .12s;
+
+    transform: scale(1.1); /*вот так*/
+  
+}
+
+.box-popap__registration {
+    display: flex;
+}
+
+.img-moow {
+    margin-top: 14px;
+
+    margin-right: 30px;
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 190px;
+}
+
+.title-popap__registration {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #171717;
+}
+
+.description-popap__registration {
+    width: 466.67px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #262626;
+
+
+}

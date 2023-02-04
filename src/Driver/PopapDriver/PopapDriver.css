@@ -1,0 +1,19 @@
+.container-popap__description{
+
+    width: 305px;
+    
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text-popap__description {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    
+    color: #EBEBEB;
+}

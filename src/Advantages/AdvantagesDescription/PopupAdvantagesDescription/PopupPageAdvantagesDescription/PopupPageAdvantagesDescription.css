@@ -1,0 +1,18 @@
+.container-description{
+
+  
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.text-page__advantages{
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #262626;
+margin-bottom: 17px;
+}

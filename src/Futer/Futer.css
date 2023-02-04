@@ -1,0 +1,20 @@
+.wraper-futer{
+    background: #FEFEFE;
+    height: 325px;
+}
+
+.img-moow__futer{
+    margin-left: 50px;
+    margin-top: 64px;
+    gap: 12px;
+}
+
+
+.futer-date{
+    font-weight: 700;
+font-size: 11px;
+line-height: 14px;
+text-align: center;
+margin-top: 24px;
+color: #7E7E7E;
+}

@@ -1,0 +1,146 @@
+.wrapper-question {
+  height: 408px;
+  background: #FEFEFE;
+}
+.container-question{
+    display: flex;
+    justify-content: center;
+    padding: 27px;
+}
+.box-question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 8px;
+    width: 451px;
+    height: 301px;
+    background: #FEFEFE;
+    box-shadow: 0px 3.33333px 14.6667px rgb(215 215 215 / 47%);
+    border-radius: 15px;
+
+}
+
+
+.title-question {
+  
+    width: 450px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #665CD1;
+    text-align: center;
+
+}
+
+.subtitle-question {
+    width: 450px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #262626;
+}
+
+.container-button__question {
+    display: flex;
+    gap: 26px;
+}
+
+.button-faq {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #F1F0FF;
+
+    width: 162px;
+    height: 40px;
+    border: none;
+    background: #171717;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+    border-radius: 45px;
+}
+
+.button-bot {
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    width: 225px;
+    height: 40px;
+
+    border: none;
+    background: #665CD1;
+    box-shadow: 0px 4px 10px rgba(110, 98, 228, 0.26);
+    border-radius: 45px;
+}
+
+
+.bottom-tile__question {
+    width: 450px;
+    height: 90px;
+        font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5A5A5A;
+}
+
+
+
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
